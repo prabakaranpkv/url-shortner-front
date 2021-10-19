@@ -1,0 +1,67 @@
+input {
+  width: 400px;
+  height: 40px;
+  border: 0.1px solid grey;
+  margin: 20px;
+}
+@media screen and (max-width: 500px) {
+  input {
+    width: 300px;
+  }
+  label > h3 {
+    margin: 0px 0px 0px 0px;
+  }
+  .form {
+    margin: 0px 0px;
+  }
+  .btn-success {
+    margin-left: 0px;
+  }
+}
+
+button {
+  background-color: rgb(124, 111, 243);
+  color: white;
+  width: 50px;
+  margin-left: 120px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+
+.loginLink {
+  margin: 10px;
+  text-align: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+@media screen and (min-width: 500px) {
+  .form {
+    margin: 0px;
+    padding: 30px;
+  }
+  button {
+    margin-left: 120px;
+  }
+  label > h3 {
+    text-align: left;
+    margin: 20px 10px 10px 300px;
+    background: rgb(66, 105, 224);
+    background-clip: text;
+    font-weight: 400;
+    text-shadow: 4px 1px 6px rgba(43, 45, 148, 0.6);
+  }
+  .row {
+    padding: 7px 0px;
+  }
+}
+.message {
+  letter-spacing: 2px;
+  padding: 20px;
+  font-size: 42px;
+  background: saddlebrown;
+  background-clip: text;
+  font-weight: 500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

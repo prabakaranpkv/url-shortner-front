@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  list-style-type: none;
+}
+.navbarRow {
+  background: #0964e4;
+}
+.part2 {
+  display: flex;
+}
+
+.listElemt:hover {
+  color: white;
+}
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 8px;
+  letter-spacing: 2px;
+}
+.link:hover {
+  color: white;
+  text-decoration: none;
+}
+#heading {
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+  padding: 10px;
+  text-shadow: 4px 1px 6px rgba(255, 255, 255, 0.6);
+  letter-spacing: 3px;
+}
+.image {
+  width: 300px;
+}
+
+.headLine {
+  letter-spacing: 2px;
+
+  font-size: 42px;
+  background: #2d7a99;
+  background-clip: text;
+  font-weight: 500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* max-width:500px; */
+  text-align: center;
+  text-shadow: 4px 1px 6px rgba(34, 147, 192, 0.6);
+}
+.footer {
+  color: rgb(209, 209, 211);
+  text-align: center;
+  background: #0964e4;
+  padding: 20px;
+  margin-top: 20px;
+}
+.signup {
+  padding-left: 600px;
+}
+@media screen and (max-width: 500px) {
+  .signup {
+    padding-left: 10px;
+  }
+}
+#profilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
